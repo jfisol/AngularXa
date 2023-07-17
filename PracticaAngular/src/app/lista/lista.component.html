@@ -1,0 +1,30 @@
+<ng-template #btn >
+    <div class="btn">
+      <button mat-raised-button color="accent" (click)="btnListado()"> {{stringlistado}} </button>
+    </div>
+   </ng-template>
+ <ng-template #myTemplate>
+  <ng-container *ngIf="vistaListado">
+   <div class="container">
+     <table>
+       <thead>
+         <th>No.</th>
+           <th>Nombres</th>
+           <th>Costos</th>
+           <th></th>
+       </thead>
+       <tbody>
+         <ng-container *ngFor="let producto of producto; let indice = index">
+           <tr>
+             <td> {{indice +1}} </td>
+             <td> {{producto.nombres}} </td>
+             <td> $ {{producto.costos}}</td>
+             <td></td>
+          </tr>
+         </ng-container>
+       </tbody>
+   </table>
+   </div>
+  </ng-container>
+ </ng-template>
+ 

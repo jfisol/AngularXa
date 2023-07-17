@@ -1,0 +1,41 @@
+
+.container{
+    margin: 20px auto;
+    width: 50%;
+}
+
+table {
+    width: 100%;
+    background-color: white;
+    text-align: left;
+    border-collapse: collapse;
+    font-size: 12px;
+   
+}
+
+th,td{
+    /*border: 1px solid black;*/
+    padding: 7px;
+}
+
+thead{
+    background-color: #246355;
+    border-bottom: 5px solid #0F362D;
+    color: white;
+}
+
+tr:nth-child(2n){
+    background-color: #ddd;
+}
+
+tr:hover{
+    background-color: #246360;
+    cursor: pointer;
+    color:white;
+    font-size: 15px;
+}
+.btn {
+    margin-left: 25%;
+    margin-top: 20px;
+}
+
