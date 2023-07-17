@@ -1,3 +1,5 @@
+
+:eyes: El ejercicio se encuentra dentro de la carpeta PracticaAngular  :a:
 # Ejercicio Angular
 
 A - Crear un nuevo proyecto de Angular. A (Opcional) - Utilizar ng add para añadir angular material.
